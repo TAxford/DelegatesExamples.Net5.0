@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace DelegatesExamples.Net5._0
 {
@@ -6,7 +7,8 @@ namespace DelegatesExamples.Net5._0
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //list of names
+            List<string> names = new List<string>() { "Aiden", "Sif", "Walter", "Anatoli" };
         }
     }
 }
